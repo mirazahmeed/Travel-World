@@ -1,0 +1,117 @@
+/* ---------links----------- */
+
+/* Font style*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* header styles */
+.header-section{
+    max-width: 1250px;
+    border: 1px solid pink;
+    margin: 0% auto;
+}
+.header-container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    border: 1px solid gold;
+}
+.web-sections{
+    width: 50%;
+    border: 1px solid rebeccapurple;
+}
+.web-sections ul li{
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    color: orangered;
+}
+.web-sections ul {
+    display: flex;
+    justify-content: space-around;
+}
+.banner-section{
+    width: 1250px;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.bg-img{
+    background: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,  #2b292a, #201f2413);
+    
+}
+
+.banner-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    top: 20%;
+    margin: 0% auto;
+}
+.banner-title{
+    font-size: 50px;
+    color: #fff;
+}
+.banner-contents p{
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.required{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgba(192, 186, 186, 0.521);
+}
+.required form{
+    display: flex;
+    gap: 10px;
+}
+.required form {
+
+}
+.input{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+.btn-submit{
+    padding: 15px;
+}
+
+/* popular tour styles */
+.popular-tour{
+    width: 1250px;
+    margin: 0% auto;
+}
