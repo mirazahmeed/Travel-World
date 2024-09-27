@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .header-section{
+        width: 100%;
+    }
+    .web-sections{
+        width: 100%;
+    }
+    .header-container{
+        flex-direction: column;
+    }
+    .banner-section{
+        width: 100%;
+    }
+    .banner-image{
+        height: 150vh;
+    }
+    .required form{
+        flex-direction: column;
+        gap: 0;
+    }
+    /* .popular-tour{
+        width: 100%;
+        flex-direction: column;
+    }
+    .popular-tour-img{
+        width:100%;
+    } */
+}

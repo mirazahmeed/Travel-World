@@ -10,9 +10,16 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+:root {
+    --primary-color: orangered;
+    --section-width: 1250px;
+}
+
+
 /* header styles */
 .header-section{
-    max-width: 1250px;
+    width: var(--section-width);
     border: 1px solid pink;
     margin: 0% auto;
 }
@@ -38,53 +45,60 @@
     display: flex;
     font-size: 16px;
     font-weight: 600;
-    color: orangered;
+    color: var(--primary-color);
 }
 .web-sections ul {
     display: flex;
     justify-content: space-around;
 }
-.banner-section{
-    width: 1250px;
-    height: 80vh;
+
+/* ************************* */
+.banner-section {
+    position: relative;
+    width: var(--section-width);
+    height: 100%;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
-.bg-img{
-    background: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+.banner-image {
+    display: block;
     width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
+    height: auto;
 }
-.overlay{
+
+.overlay {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
     background: linear-gradient(to bottom,  #2b292a, #201f2413);
-    
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* Black background with 50% opacity */
 }
 
-.banner-contents{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 60%;
-    position: relative;
-    top: 20%;
-    margin: 0% auto;
+.banner-contents {
+    max-width: 90%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 3rem;
     color: #fff;
 }
 .banner-contents p{
     color: white;
-    margin-top: 40px;
+    margin-top: 3rem;
     text-align: center;
 }
 .required{
@@ -112,6 +126,38 @@
 
 /* popular tour styles */
 .popular-tour{
-    width: 1250px;
+    width: var(--section-width);
     margin: 0% auto;
+    margin-top: 90px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.popular-tour-content{
+    width: calc(50% - 25px);
+}
+.popular-tour-content p{
+    margin-bottom: 30px;
+}
+.popular-tour-content ul li{
+    margin-bottom: 20px;
+}
+.popular-tour-content ul{
+    padding-left: 20px;
+    color: rgb(105, 103, 103);
+}
+.popular-tour-img{
+    width: calc(50% - 25px);
+}
+.popular-tour-img img{
+    width: 100%;
+}
+.primary-btn{
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
 }
