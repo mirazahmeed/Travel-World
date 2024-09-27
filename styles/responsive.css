@@ -11,18 +11,31 @@
     .banner-section{
         width: 100%;
     }
+    .banner-contents{
+        
+        width: 80%;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
     .banner-image{
-        height: 150vh;
+        height: 100vh;
     }
     .required form{
         flex-direction: column;
         gap: 0;
     }
-    /* .popular-tour{
+    .required form label{
+        display: none;
+    }
+    .popular-tour{
         width: 100%;
         flex-direction: column;
     }
+    .popular-tour-content{
+        width: calc(90% - 25px);
+    }
     .popular-tour-img{
-        width:100%;
-    } */
+        width: calc(90% - 25px);
+    }
 }
