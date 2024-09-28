@@ -20,7 +20,6 @@
 /* header styles */
 .header-section{
     width: var(--section-width);
-    border: 1px solid pink;
     margin: 0% auto;
 }
 .header-container{
@@ -34,11 +33,9 @@
     align-items: center;
     gap: 10px;
     width: 50%;
-    border: 1px solid gold;
 }
 .web-sections{
     width: 50%;
-    border: 1px solid rebeccapurple;
 }
 .web-sections ul li{
     list-style-type: none;
