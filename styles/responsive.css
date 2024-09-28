@@ -38,4 +38,14 @@
     .popular-tour-img{
         width: calc(90% - 25px);
     }
+    .row{
+        flex-direction: column;
+    }
+    .destination-section{
+        width: 90%;
+    }
+    .row img{
+        width: 100%;
+    }
+    
 }

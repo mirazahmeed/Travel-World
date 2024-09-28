@@ -162,3 +162,27 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+/* destination section */
+.destination-section{
+    width: var(--section-width);
+    margin: 0% auto;
+}
+.destinations{
+
+}
+.row{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 10px;
+}
+.row img{
+    width: calc(100% - 5px);
+    height: calc(300px - 10px);
+    margin-bottom: 10px;
+}
+/* why choose section */
+.choose-reason-section{
+    width: var(--section-width);
+    margin: 0 auto;
+}
