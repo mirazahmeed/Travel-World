@@ -119,7 +119,14 @@
     font-size: 15px;
 }
 .btn-submit{
-    padding: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
 }
 
 /* popular tour styles */
@@ -195,9 +202,156 @@
     flex-basis: 600px;
     padding: 30px;
     border-radius: 10px;
+    
+}
+.card1{
+    background-color: rgba(255, 121, 73, 0.041);
+    border:1px solid rgba(253, 111, 59, 0.137);
+}
+.card2{
+    background-color: rgba(113, 220, 253, 0.103);
+    border:1px solid rgba(113, 220, 253, 0.301);
+}
+.card3{
     background-color: rgba(253, 151, 113, 0.103);
     border:1px solid rgba(253, 111, 59, 0.137);
 }
 .card img{
     width: 22%;
+}
+/* Deals & Discounts section */
+.Deals-Discounts-section{
+    max-width: var(--section-width);
+    margin: 0% auto;
+    margin-bottom: 50px;
+}
+.deals-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.deals-card1{
+    width: 100%;
+    padding: 55px;
+    display: flex;
+    justify-content: end;
+    border-radius: 15px;
+    background-image: url(/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deals-card2{
+    width: 100%;
+    padding: 55px;
+    display: flex;
+    justify-content: start;
+    border-radius: 15px;
+    background-image: url(/Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deals-card3{
+    width: 100%;
+    padding: 55px;
+    display: flex;
+    justify-content: end;
+    border-radius: 15px;
+    background-image: url(/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.package-card{
+    width: 50%;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: #ffffffde;
+    border: 2px solid white;
+}
+.package-card > div{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.package-card > div p i{
+    color: orangered;
+}
+.package-card > div p {
+    font-size: 1.1rem;
+}
+.package-card h4{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.package-card p{
+    margin-bottom: 20px;
+    color: gray;
+}
+/* ****************** */
+.video-graphy{
+    width: var(--section-width);
+    margin: 0% auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.video-graphy-content{
+    width: calc(45% - 25px);
+}
+.video-graphy-mp4{
+    width: calc(55% - 25px);
+}
+.video-graphy-content p{
+    margin-bottom: 30px;
+}
+.video-graphy-content ul li{
+    margin-bottom: 20px;
+}
+.video-graphy-content ul{
+    padding-left: 20px;
+    color: rgb(105, 103, 103);
+}
+.video-graphy-mp4 video{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+}
+/* newsletter section */
+.newsletter-section{
+    width: var(--section-width);
+    margin: 0% auto;
+    display: flex;
+    gap: 30px;
+}
+.newsletter-content{
+    width: 40%;
+}
+.newsletter-content form{
+    border: 2px solid orangered;
+    padding: 40px;
+    border-radius: 15px;
+}
+.newsletter-content form input{
+    width: 100%;
+    background-color: rgba(150, 150, 150, 0.151);
+}
+.newsletter-img{
+    width: calc(60% - 30px);
+}
+.newsletter-img div{
+    background-color: orangered; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 10px 20px;
+    rotate: -30deg;
+    position: absolute;
+    top: 0%;
+
+}
+.newsletter-img img{
+    position: relative;
+    width: 100%;
 }

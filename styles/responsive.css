@@ -51,7 +51,56 @@
         width: 90%;
         margin: 0 auto;
     }
-    .card{
-
+    /* ******************** */
+.Deals-Discounts-section{
+    width: 90%;
+}
+    .deals-card1, .deals-card3{
+        height: 80vh;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .deals-card2{
+        justify-content: end;
+        height: 80vh;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .package-card{
+        width: 100%;
+        padding: 40px;    }
+    .package-card > div{
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+    /* ****************** */
+    
+    .video-graphy{
+        width: 100%;
+        flex-direction: column;
+    }
+    .video-graphy-content{
+        width: calc(90% - 25px);
+    }
+    .video-graphy-mp4{
+        width: calc(90% - 25px);
+    }
+    /* ******************** */
+    .newsletter-section{
+        width: 100%;
+        flex-direction: column;
+        margin: 0% auto;
+    }
+    .newsletter-section > div{
+        width: 90%;
+        margin: 0% auto;
+    }
+    .newsletter-content{
+        width: 90%;
+    }
+    .newsletter-img{
+        width:90%;
     }
 }
