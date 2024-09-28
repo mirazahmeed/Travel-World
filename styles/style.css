@@ -183,6 +183,24 @@
 }
 /* why choose section */
 .choose-reason-section{
-    width: var(--section-width);
+    max-width: var(--section-width);
     margin: 0 auto;
+    margin-bottom: 100px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
+
+.card{
+    flex-basis: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(253, 151, 113, 0.103);
+    border:1px solid rgba(253, 111, 59, 0.137);
+}
+.card img{
+    width: 22%;
 }
