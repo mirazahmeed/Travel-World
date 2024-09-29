@@ -98,9 +98,15 @@
         margin: 0% auto;
     }
     .newsletter-content{
-        width: 90%;
+        width: 100%;
     }
     .newsletter-img{
-        width:90%;
+        width: 100%;
+    }
+    footer{
+        height: 50vh;
+    }
+    .footer-content p{
+        width: 90%;
     }
 }
